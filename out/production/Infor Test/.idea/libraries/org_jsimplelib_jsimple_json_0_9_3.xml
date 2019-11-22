@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.jsimplelib:jsimple-json:0.9.3" type="repository">
+    <properties maven-id="org.jsimplelib:jsimple-json:0.9.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsimplelib/jsimple-json/0.9.3/jsimple-json-0.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsimplelib/jsimple-util/0.9.3/jsimple-util-0.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsimplelib/jsimple-io/0.9.3/jsimple-io-0.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/intellij/annotations/9.0.4/annotations-9.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

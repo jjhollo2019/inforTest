@@ -1,0 +1,36 @@
+{
+    "jeff":"Jeff",
+    "jeffSalary":"100000",
+    "jeffEmployees": [
+        {
+            "dave":"Dave",
+            "daveSalary":"85000",
+            "daveEmployees":[
+                {
+                    "andy":"Andy",
+                    "andySalary":"65000"
+                },
+                {
+                    "dan":"Dan",
+                    "danSalary":"60000"
+                },
+                {
+                    "jason":"Jason",
+                    "jasonSalary":"60000"
+                },
+                {
+                    "rick":"Rick",
+                    "rickSalary":"56000"
+                },
+                {
+                    "suzanne":"Suzanne",
+                    "suzanneSalary":"61000"
+                }
+            ]
+        }, 
+        {
+            "cory":"Cory",
+            "corySalary":"65000"
+        }
+    ]
+}

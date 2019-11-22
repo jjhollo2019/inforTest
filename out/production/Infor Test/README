@@ -1,0 +1,23 @@
+Jeremy Holloway
+11/22/2019
+Infor Coding Test
+
+Use Directions:
+To run the program please use the included make file
+make file commands:
+    make: will compile the program
+    make run: will execute the code
+    make clean: will delete all class files
+
+Notes:
+    I used intellij to create and run the Junit test cases using JUint 4.12
+    I used maven to import com.googlecode.json-simple to use JSON
+
+Things I completed:
+    Print employee tree
+    Print total salary
+    Sort employees
+
+Things I missed:
+    I didn't get the print formatting quite right, I could have just created it manually 
+    but I wasn't able to discern the answer programatically
