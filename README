@@ -2,6 +2,10 @@ Jeremy Holloway
 11/22/2019
 Infor Coding Test
 
+File Locations:
+    Main Source Files: infor/
+    JUnit Files: test/infor/
+
 Use Directions:
 To run the program please use the included make file
 make file commands:
