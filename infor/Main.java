@@ -1,9 +1,9 @@
 package infor;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -47,24 +47,26 @@ class Main {
 
             JSONObject jObj = (JSONObject) obj;
 
-
-
+            //I was able to parse jeff but not the others
+            //I'm not sure why the parsing failed beyond this point
             Manager jeff2 = new Manager((String) jObj.get("jeff"), Integer.parseInt((String) jObj.get("jeffSalary")));
             Manager dave2 = new Manager("didn't get json", 0);
             Manager cory2 = new Manager("didn't get json", 0);
 
-            JSONArray arr = (JSONArray) jObj.get("jeffEmployees");
+            /*JSONArray arr = (JSONArray) jObj.get("jeffEmployees");
             for(int i = 0; i < arr.size(); i++){
                 //System.out.println(arr.toJSONString());
                 JSONObject temp = (JSONObject) arr.get(i);
                 if(temp.get("dave").equals("Dave")){
                     dave2 = new Manager((String) temp.get("dave"), Integer.parseInt((String) temp.get("daveSalary")));
                 }
-                /*if(temp.get("cory").equals("Cory")){
+                if(temp.get("cory").equals("Cory")){
                     cory2 = new Manager((String) jObj.get("cory"), Integer.parseInt((String) temp.get("corySalary")));
-                }*/
-            }
+                }
+            }*/
 
+
+            /*
             //add Managers under the CEO
             jeff2.addEmployee(dave2);
             jeff2.addEmployee(cory2);
@@ -101,11 +103,11 @@ class Main {
             dave2.addEmployee(dan2);
             dave2.addEmployee(jason2);
             dave2.addEmployee(rick2);
-            dave2.addEmployee(suzanne2);
+            dave2.addEmployee(suzanne2);*/
 
             //print results
-            System.out.println(jeff.toString());
-            totalSalaries = jeff.getSalaries() + dave.getSalaries() + cory.getSalaries() + jeff.getSalary();
+            System.out.println("\n" + jeff2.toString());
+            totalSalaries = jeff2.getSalaries() + jeff2.getSalary();
             System.out.println("Total Salary: " + df.format(totalSalaries));
 
         } catch (IOException e) {

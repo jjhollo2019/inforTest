@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.apache.camel:json-simple-ordered:2.24.1" type="repository">
+    <properties maven-id="org.apache.camel:json-simple-ordered:2.24.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/json-simple-ordered/2.24.1/json-simple-ordered-2.24.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

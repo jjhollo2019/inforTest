@@ -21,3 +21,6 @@ Things I completed:
 Things I missed:
     I didn't get the print formatting quite right, I could have just created it manually 
     but I wasn't able to discern the answer programatically
+
+    I didn't finish the JSON parsing, The documentation for the library didn't match the 
+    functionality so I wasn't able to implement the parsing 
